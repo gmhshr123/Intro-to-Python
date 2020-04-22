@@ -7,8 +7,8 @@
 import random
 
 #randomly generate a sequence
-a
-def sequence(length):c
+
+def sequence(length):
 	dna=""
 	for count in range(length):
 		dna+=random.choice("ATCG")
@@ -38,4 +38,4 @@ def gccontent(smaller):
 # Use list comprehension to generate a list that calculate the GC content for each samller sequence
 gccontentlist=[gccontent(element) for element in smallerseq]
 
-print("the GC content for each samller sequence re:",gcontentlist)
+print("the GC content for each samller sequence re:",gccontentlist)
